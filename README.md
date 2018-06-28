@@ -5,7 +5,7 @@ This Web App is based on the [Python-Dash by Plotly Framework](https://plot.ly/p
 
 #### Layout and HW Description
 
-The app layout is build as SPA. On the left side, there is a Control Panel. On the right side, you will find the visualizations.
+The app layout is build as SPA. On the left side, there is a Control Panel with various buttons the charge or stop charging the battery pack. On the right side, you will find the visualizations.
 
 [image_0]: ./misc/battery_app_sample.jpg
 ![alt text][image_0] 

@@ -3,11 +3,9 @@ from dash.dependencies import Input,Output, State, Event
 import dash_core_components as dcc
 import dash_html_components as html
 import base64
-
 from plotly import tools
 import plotly.plotly as py
 import plotly.graph_objs as go
-
 from collections import deque
 import queue
 import numpy as np
@@ -18,9 +16,6 @@ import os
 import time
 import threading
 from threading import Thread
-#from multiprocessing import Pool
-#from multiprocessing.dummy import Pool as ThreadPool
-
 # surpress logging
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
@@ -33,10 +28,8 @@ num_sens = 2 # number of sensor data
 cells = 6 # number of cells per battery pack (accus)
 buff_len = 20 # length buffer
 thres = 0.95 # threshold warning
-
 # init buffer
 q = queue.Queue()
-
 a1_V_list = [] # accu 1 voltage
 a1_T_list = [] # accu 1 temperature
 a2_V_list = [] # accu 2 voltage

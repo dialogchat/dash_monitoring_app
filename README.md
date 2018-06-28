@@ -17,10 +17,14 @@ Here is the an example of the complete Hardware Setup. There are two battery pac
 
 #### Install Instructions
 
-The good news, from the software side all you need Pyhon. On the HW side you will need the PiCan Board and should setup the board interface first (instructions on how to do this, see [PiCan2 Installation](https://www.skptechnology.co.uk/pican2-software-installation/)).
+The good news, from the software side all you need Python (everything in one file)!! On the HW side you need the PiCan2 Board. Do the setup of the board interface first by following these instructions [PiCan2 Installation](https://www.skptechnology.co.uk/pican2-software-installation/)).
 
-First, install all dependencies in the requirements.txt file:
+Then, install all Python dependencies in the requirements.txt file:
 ```
 pip install -r requirements.txt
 ```
-
+After you installed all dependencies, you need to open the script run_app.py and set the IP of your Raspberry Pi at the end of the script. See line 866 with `IP = '192.168.200.1'`. Finally run the script with
+```
+python3 run_app.py
+``` 
+Access your favorite browser in your local network by entering the IP and port number e.g. `192.168.200.1:9999`. Notice, dependent on your data, the PI might face difficulties to load app in a performant way. However, PCs in your network should be able to load the page without problems (The bottleneck are the update times of the callbacks. In case of problems try to change them).

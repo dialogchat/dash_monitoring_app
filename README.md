@@ -23,7 +23,7 @@ Then, install all Python dependencies in the requirements.txt file:
 ```
 pip install -r requirements.txt
 ```
-After you installed all dependencies, you need to open the script `run_app.py` and set the IP of your Raspberry Pi at the end of the script (in terminal: ifconfig). Go to line 866 in `run_app.py` and set your IP `IP = '192.168.200.1'`. Finally, run the script with:
+After you installed all dependencies, you need to open the script `run_app.py` and set the IP of your Raspberry Pi at the end of the script. Go to line 866 in `run_app.py` and set your IP e.g. `IP = '192.168.200.1'`. Finally, run the script with:
 ```
 python3 run_app.py
 ``` 

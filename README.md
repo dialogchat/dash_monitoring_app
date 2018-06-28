@@ -7,8 +7,10 @@ This Web App is based on the [Python-Dash by Plotly Framework](https://plot.ly/p
 
 The app layout is build as SPA. On the left side, there is a controller panel. On the right side, you will find the visualizations.
 [//]: # (Image References)
+
 [image_0]: ./misc/battery_app_sample.png
 
+![alt text][image_0] 
 
 #### Install Instructions
 

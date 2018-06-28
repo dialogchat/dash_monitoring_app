@@ -23,8 +23,8 @@ Then, install all Python dependencies in the requirements.txt file:
 ```
 pip install -r requirements.txt
 ```
-After you installed all dependencies, you need to open the script run_app.py and set the IP of your Raspberry Pi at the end of the script. See line 866 with `IP = '192.168.200.1'`. Finally run the script with
+After you installed all dependencies, you need to open the script `run_app.py` and set the IP of your Raspberry Pi at the end of the script (in terminal: ifconfig). Go to line 866 in `run_app.py` and set your IP `IP = '192.168.200.1'`. Finally, run the script with:
 ```
 python3 run_app.py
 ``` 
-Access your favorite browser in your local network by entering the IP and port number e.g. `192.168.200.1:9999`. Notice, dependent on your data, the PI might face difficulties to load app in a performant way. However, PCs in your network should be able to load the page without problems (The bottleneck are the update times of the callbacks. In case of problems try to change them).
+Access your favorite browser in your local network by entering the IP and port number e.g. `192.168.200.1:9999`. Notice, dependent on your data, the PI might have difficulties to load the app in a performant way. However, PCs in your network should be able to load the page without problems (The bottleneck are the update times of the callbacks. In case of problems, try to change them).

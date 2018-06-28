@@ -17,6 +17,8 @@ Here is the an example of the complete Hardware Setup. There are two battery pac
 
 #### Install Instructions
 
+The good news, from the software side all you need Pyhon. On the HW side you will need the PiCan Board and should setup the board interface first (instructions on how to do this, see [PiCan2 Installation](https://www.skptechnology.co.uk/pican2-software-installation/)).
+
 First, install all dependencies in the requirements.txt file:
 ```
 pip install -r requirements.txt

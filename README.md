@@ -16,7 +16,7 @@ The app layout is build as Single Page Application (SPA). On the left side, ther
 
 #### Hardware Setup
 
-Here is the an example of the complete Hardware Setup. There are two battery packs equipped with 6 battery cells each and a Battery Monitoring System (The BMS are located on the top right side of each pack next to the orange power connectors). Each BMS sends out Voltages and Temperatures via CAN bus to the RPi ( The blue PI CAN board with the green RPI in the middle of the Picture). The Pi is connected to the internet (here: ethernet, or use wlan) and the Battery Monitoring Web App is displayed in the browser of the host PC (screen on the right side). You can see live plotting of Voltages and Temperatures of right Battery Pack (blue and green) while the left Battery Pack is currently disconnected (Error, red Values).
+Here is an example of the complete Hardware Setup. There are two battery packs equipped with 6 battery cells each and a Battery Monitoring System (The green BMS are located at the top right yellow part of each pack next to the orange power connectors). Each BMS sends out Voltages and Temperatures via CAN bus to the RPi (The blue PI CAN board with the green RPI in the middle of the Picture). The Pi is connected to the internet (here: ethernet, or use wlan) and the Battery Monitoring Web App is displayed in the browser of the host PC (screen on the right side). You can see live plotting of Voltages and Temperatures of right Battery Pack (blue and green) while the left Battery Pack is currently disconnected (Error, red Values).
 
 [image_1]: ./misc/liveplotting_hw_setup.jpg
 ![alt text][image_1]

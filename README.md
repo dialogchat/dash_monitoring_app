@@ -33,7 +33,7 @@ If you just interested to see the demo, run the command below. It will show you 
 ```
 python3 demo.py
 ``` 
-To run the full app on the RPI, you need the PiCan2 Board. Do the setup of the board interface first by following these instructions [PiCan2 Installation](https://www.skptechnology.co.uk/pican2-software-installation/)).
+To run the full app on the RPI, you need the PiCan2 Board. Do the setup of the board interface first by following these instructions [PiCan2 Installation](https://www.skptechnology.co.uk/pican2-software-installation/).
 
 After you setup the PiCan2 interface and you installed all dependencies on the RPI (see above), you need to open the script `run_app.py` and set the IP of your Raspberry Pi at the end of the script. Go to line 866 in `run_app.py` and set your IP e.g. `IP = '192.168.200.1'`. Finally, run the script with:
 ```

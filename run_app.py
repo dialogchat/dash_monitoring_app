@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+Browser based Web App
+Purpose: Battery Monitoring on a RPI with a PICAN2 Board
+Version: 4/2018 Roboball (MattK.)
+"""
 import dash
 from dash.dependencies import Input,Output, State, Event
 import dash_core_components as dcc

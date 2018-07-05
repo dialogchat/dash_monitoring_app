@@ -1,7 +1,7 @@
 # Battery Monitoring App on a Raspberry PI
 Web App for Real-Time Monitoring CAN Bus Data on a Raspberry Pi.
 
-- Try `demo.py` on your PC first without a PI (see further Instructions below)!!
+- Try `demo.py` on your PC first without a PI (see further instructions below)!!
 
 #### Introduction
 

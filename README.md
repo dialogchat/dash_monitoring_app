@@ -39,4 +39,6 @@ After you setup the PiCan2 interface and you installed all dependencies on the R
 ```
 python3 run_app.py
 ``` 
-Access your favorite browser in your local network by entering the IP and port number e.g. `192.168.200.1:9999`. Notice, dependent on the amount of your data, the PI might have performance issues to load the app fast. However, PCs in your network should be able to load the page without problems (The bottleneck are the update times of the callbacks. In case of problems, try to change them).
+Access your favorite browser in your local network by entering the IP and port number e.g. `192.168.200.1:9999`. 
+
+Notice, dependent on the amount of your data, the PI might have performance issues to load the app fast. However, PCs in your network should be able to load the page without problems (The bottleneck are the update times of the callbacks. In case of problems, try to change them).

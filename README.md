@@ -7,7 +7,7 @@ This Web App is based on the [Python-Dash by Plotly Framework](https://plot.ly/p
 
 The app layout is build as SPA. On the left side, there is a Control Panel with various buttons the charge or stop charging the battery pack. On the right side, you will find visualizations for cell temperature and voltages.
 
-[image_0]: ./misc/battery_app_sample.jpg
+[image_0]: ./misc/battery_live_sample.png
 ![alt text][image_0] 
 
 Here is the an example of the complete Hardware Setup. There are two battery packs equipped with 6 battery cells each and a Battery Monitoring System (BMS). Each BMS sends out Voltages and Temperatures via CAN bus to the RPi (in the middle of the Picture). The Pi is connected to the internet (here: ethernet, or use wlan) and the Battery Monitoring Web App is diplayed in the browser of the host PC. You can see live plotting of Voltages and Temperatures of right Battery Pack (blue and green) while the left Battery Pack is currently disconnected (red Values).

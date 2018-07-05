@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Browser based Web App
-Purpose: Battery Monitoring
+Purpose: Battery Monitoring Demo
 Version: 4/2018 Roboball (MattK.)
 """
 import dash

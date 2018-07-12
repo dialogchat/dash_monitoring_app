@@ -25,9 +25,9 @@ Here is an example of the complete Hardware Setup. There are two battery packs e
 
 The good news, from the software side all you need Python (everything in one file)!! 
 
-First, install all Python dependencies in the requirements.txt file and upgrad plotly:
+First, install all Python dependencies in the requirements.txt file and upgrade plotly:
 ```
-pip install -r requirements.txt && pip install plotly --upgrade 
+pip3 install -r requirements.txt && pip3 install plotly --upgrade 
 ```
 If you just interested to see the demo, run the command below. It will show you random plots without the PiCan Api. You can run the demo on your Host PC without need of a RPI. Just enter the IP of your PC at the end of the script, run the command below and open up a web-browser.
 ```

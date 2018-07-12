@@ -126,7 +126,7 @@ app.layout = html.Div([
             dcc.Graph(id='g01',),
             dcc.Interval(id='graph-update', interval= 1000 * 1),
         ],className="row", style={}),
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}),
         
         html.Div([
          html.Div([
@@ -143,14 +143,14 @@ app.layout = html.Div([
                              'text-align':'center','font-size': '20', 'width': '150', 'display': 'inline-block',
                               'margin-left' : '34','margin-right' : '0','padding-left' : '0','padding-right' : '0',}),
         ],className="row ", style={}),
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}),
         
         
         html.Div([
         html.Div([
             dcc.Graph(id='g02',),
         ],className="row", style={}),
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}),
         
         html.Div([   
         html.Div([
@@ -167,13 +167,13 @@ app.layout = html.Div([
                              'text-align':'center','font-size': '20', 'width': '150', 'display': 'inline-block',
                               'margin-left' : '34','margin-right' : '0','padding-left' : '0','padding-right' : '0',}),
         ],className="row", style={}),
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}), 
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}), 
         
         html.Div([
         html.Div([
             dcc.Graph(id='g03',),
         ],className="row", style={}),
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}),
         
         html.Div([
            html.Div([
@@ -190,7 +190,7 @@ app.layout = html.Div([
                              'text-align':'center','font-size': '20', 'width': '150', 'display': 'inline-block',
                               'margin-left' : '34','margin-right' : '0','padding-left' : '0','padding-right' : '0',}),
         ],className="row", style={}), 
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),              
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}),              
                                      
                  ], className="card-body ", style={}),
 		],className="card ", style={	
@@ -210,7 +210,7 @@ app.layout = html.Div([
         html.Div([
             dcc.Graph(id='g11',),
         ],className="row", style={}),
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}), 
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}), 
         
         html.Div([
          html.Div([
@@ -227,13 +227,13 @@ app.layout = html.Div([
                              'text-align':'center','font-size': '20', 'width': '150', 'display': 'inline-block',
                               'margin-left' : '34','margin-right' : '0','padding-left' : '0','padding-right' : '0',}),
         ],className="row", style={}),
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}),
         
         html.Div([
         html.Div([
             dcc.Graph(id='g12',),
         ],className="row", style={}),
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),
+        ],className="d-flex align-items-center flex-column justify-content-center", style={}),
         
         html.Div([
         html.Div([
@@ -250,13 +250,13 @@ app.layout = html.Div([
                              'text-align':'center','font-size': '20', 'width': '150', 'display': 'inline-block',
                               'margin-left' : '34','margin-right' : '0','padding-left' : '0','padding-right' : '0',}),
         ],className="row", style={}),
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}),
         
         html.Div([
           html.Div([
             dcc.Graph(id='g13',),
         ],className="row", style={}),  
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}),
         
         html.Div([
         html.Div([
@@ -273,7 +273,7 @@ app.layout = html.Div([
                              'text-align':'center','font-size': '20', 'width': '150', 'display': 'inline-block',
                               'margin-left' : '34','margin-right' : '0','padding-left' : '0','padding-right' : '0',}),
         ],className="row", style={}), 
-        ],className="d-flex align-items-center flex-column justify-content-center h-100", style={}),
+        ],className="d-flex align-items-center flex-column justify-content-center ", style={}),
                    
         ], className="card-body"),
 		], className="card"),
@@ -687,8 +687,8 @@ for js in external_js:
 
 if __name__ == '__main__':
 	# set your IP here:
-	IP = '192.168.2.1'
-    app.run_server(debug=True, host=IP,port= 9999)
+	IP = '192.168.2.100'
+	app.run_server(debug=False, host=IP,port= 9999)
 
 
 

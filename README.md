@@ -8,7 +8,7 @@ Web App for Real-Time Monitoring CAN Bus Data on a Raspberry Pi.
 This Web-App is based on the [Python-Dash by Plotly Framework](https://plot.ly/products/dash/). The purpose of this
 Web-App is to enable monitoring of battery cells in a battery pack and to provide a
 controller panel to load battery packs. The app is running on multiple threads. The first
-thread reads in the Can-Bus data from the PiCan2 Board into a global queue. The
+thread reads in the Can-Bus data from the [PiCAN2 Board](http://skpang.co.uk/catalog/pican2-canbus-board-for-raspberry-pi-23-p-1475.html) into a global queue. The
 second thread takes values from the global queue and filters the CAN messages into
 different local queues. The third thread runs the Dash-Web-App with multiple
 callbacks updating the values from local queues into live plotting visualizations. 

@@ -27,7 +27,7 @@ Here is an example of the complete Hardware Setup. There are two battery packs e
 [image_1]: ./misc/liveplotting_hw_setup.jpg
 ![alt text][image_1]
 
-#### Install Instructions
+#### Installation Instructions
 
 The good news, from the software side all you need Python (everything in one file)!! 
 
